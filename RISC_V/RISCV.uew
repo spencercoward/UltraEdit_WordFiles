@@ -1,0 +1,59 @@
+/L20"RISC-V" AASM_LANG
+/Nocase
+/Line Comment Num = 2# 
+/Line Comment Alt = //
+/File Extensions = s S inc INC
+/Delimiters = ~!@$%^&*()-+=|\/{}[]:;"'<> ,	.?
+/Marker Characters = "<>"
+
+/C1"Light Blue"
+#include
+/C2"Red"
+gp
+ra ret
+sp
+tp
+x0 x1 x2 x3 x4
+zero
+/C3"Orange"
+a0 a1 a2 a3 a4 a5 a6 a7
+fp
+s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11
+t0 t1 t2 t3 t4 t5 t6
+x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31
+/C4"Dark Green"
+align globl section text 
+/C5"Brown"
+:
+"
+<>
+/C6"Dark Blue"
+add addi addiw addw and andi auipc
+beq beqz bge bgeu bgez bgt bgtu bgtz ble bleu blez blt bltu bltz bne bnez
+call csrrc csrrci csrrs csrrsi csrrw csrrwi
+fence fence\.i
+i
+j jal jalr jr
+la lb lb lbu ld ld lh lhu li lui lw
+mv
+neg negw nop not
+or ori
+ret
+sb sd seqz sext\.w sgtz sh sll slli slliw sllw slt slti sltiu sltu sltz snez sra srai sraiw sraw srl srli srliw srlw sub subw sw
+tail
+xor xori
+/C7"Purple"
+equ
+/C8"Light Green" 
+/C9"9"
+/C10"10"
+/C11"11"
+/C12"12"
+/C13"13"
+/C14"14"
+/C15"15"
+/C16"16"
+/C17"17"
+/C18"18"
+/C19"Made By"
+/C20"S. Coward"
