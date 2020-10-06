@@ -1,0 +1,2 @@
+Made this RISC-V .uew file for UltraEdit, please feel free to let me know if I missed something or have ideas for changes that could be made in order to improve
+the syntax-highlighting experience for RISC-V in UltraEdit.
